@@ -251,9 +251,38 @@
       
     
     
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        MT01
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+    
     <a href="./" title="MT01" class="md-nav__link md-nav__link--active">
       MT01
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#instalacion-de-los-programas" class="md-nav__link">
+    Instalación de los programas
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
     
   </li>
 
@@ -444,6 +473,21 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#instalacion-de-los-programas" class="md-nav__link">
+    Instalación de los programas
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -463,7 +507,104 @@
                 
                 
                 <h1 id="mt01">MT01<a class="headerlink" href="#mt01" title="Permanent link">&para;</a></h1>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<h3 id="instalacion-de-los-programas">Instalación de los programas<a class="headerlink" href="#instalacion-de-los-programas" title="Permanent link">&para;</a></h3>
+<p>En este módulo trabajamos para poder documentar nuestros proyectos de manera remota y abierta a través de <strong>Visual Studio Code</strong>, que es un editor de código gratuito y  fácil de usar para generar webs estáticas. 
+Como punto de partida para comenzar nuestra web los docentes nos compartieron un <strong>template</strong> (fragmento de código o modelo prediseñado que sirve de ejemplo para modificar). Ahí también puedo visualizar los links para descargar los distintos progrmas.</p>
+<p>Lo primero fue instalar el  Visual Studio Code (VSC) en mi maquina, quien por medio de <strong>Markdown</strong>, que es una extensión, me va mostrando lo que escribo y me deja editarlo. Markdown es un lenguaje de código simple y legible, lo tuve que descargar. 
+En VSC ir al penúltimo icono de la izquierda que es <em>Extensions</em>, escribo Markdown y me lo instalo con doble click.
+<img alt="instalar_Markdown" src="../../images/MT01/1_markdown.png" /></p>
+<p>Luego me descargué <strong>GIT</strong> y <strong>Python</strong> (ambos se instalan fácilmente, es seguir los pasos). Por último me generé un usuario en <strong>GitHub</strong>.
+GitHub es una nube de código colaborativa, que permite compartir el código de distintos proyectos en diferentes computadoras, editarlo y/o copiarlos, así como ir viendo el proceso que se fue generando para llegar a esos códigos. 
+Para que esto funcione hay que ir a la terminal de la computadora y escribir:
+ git config &ndash;global user.name “Irene Costa” (en mi caso) y el correo git config &ndash;global user.email “<a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#105;&#114;&#101;&#110;&#101;&#99;&#111;&#115;&#116;&#97;&#114;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">&#105;&#114;&#101;&#110;&#101;&#99;&#111;&#115;&#116;&#97;&#114;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;</a>”.</p>
+<p>### Calve SSH</p>
+<p>Con todo instalado hay que generar una <strong>clave shh</strong> de manera de conectar el ordenador local con GitHub, esto permite intercambiar información de forma segura.
+Hay que ir a la terminal y escribir ssh-keygen -t -b “<a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#105;&#114;&#101;&#110;&#101;&#99;&#111;&#115;&#116;&#97;&#114;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">&#105;&#114;&#101;&#110;&#101;&#99;&#111;&#115;&#116;&#97;&#114;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;</a>”. Se crea una carpeta con varias carpetas dentro.
+<img alt="calve_ssh_en terminal" src="../../images/MT01/2_ssh.jpg" /></p>
+<blockquote>
+<p>Imagen obtenida de internet a modo repesentativo. (<a href="https://docs.oracle.com">https://docs.oracle.com</a>).</p>
+</blockquote>
+<p>El contenido de <em>id_rsa.pub</em> hay que copiarlo en el GitHub, para eso realizo los siguientes pasos:
+* Ir arriba la derecha al ícono de la cuenta
+* Settings
+* SSH and GPGKeys
+* NUEVO 
+* Copio todo lo que figura en mi carpeta <em>id_rsa.pub</em> y valido la cuenta con un código que me llega a mi mail</p>
+<p><img alt="ssh_github" src="../../images/MT01/3_setting-ssh.png" /></p>
+<p>Para comprobar si está bien hecho, escribir en la terminal ssh -t <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#103;&#105;&#116;&#64;&#103;&#105;&#116;&#104;&#117;&#98;&#46;&#99;&#111;&#109;">&#103;&#105;&#116;&#64;&#103;&#105;&#116;&#104;&#117;&#98;&#46;&#99;&#111;&#109;</a> </p>
+<p>Luego en GitHub ir a: 
+* Fork (arriba a la derecha) 
+* Crear un nuevo fork que lo llamo irene-costa / CREAR</p>
+<ul>
+<li>Ir a <em>Code</em> (arriba a la izquierda) </li>
+<li>I undestarnd my workflows. go ahend and enable them con esto quedan activas las acciones.</li>
+<li>Ir a <em>Readme</em> abajo del todo y con el lápiz editar los cambios de la URL. En lugar de <em>fablab</em> pongo mi nombre de GitHub que es <em>IreneCostAr</em> y en <em>EDFI template</em> por <em>Irene-Costa</em></li>
+<li>Ir a <em>Commit change</em></li>
+<li><em>Commit change</em></li>
+<li>Ir a <em>Actions</em> que te muestra que esta haciendo algo (pensando, cargando&hellip;).</li>
+<li>
+<p>Por último Settings/Pages
+<img alt="setting_pages" src="../../images/MT01/4_setting-pages.png" /></p>
+</li>
+<li>
+<p>En <em>Brunch</em> donde dice <em>None</em>, despliego y elegir <em>gh-pages</em> </p>
+</li>
+<li>SAVE</li>
+<li>Volver a <em>Code</em> al archivo <em>mkdocs.yml</em>. Editar con el lápiz y cambiar <em>fablab barcelona</em> por <em>IreneCosAr</em> y <em>EFDitemplate</em> por <em>Irene-Costa</em> </li>
+<li><em>Commit</em>. (Linea 7 y 8)</li>
+<li>Ir a <em>Code</em> </li>
+<li><em>ssh</em> y copiar la ruta</li>
+<li>Arbirla en terminal, parada en la carpeta donde voy a trabajar y escribir <em>git clone</em>  y pegar la ruta.</li>
+<li>ENTER </li>
+</ul>
+<p>### Homebrew (para MacOS)</p>
+<p>En mac hay que instalar <strong>brew</strong>, se descarga desde su página. Homebrew facilita la instalación de software que no viene incluido de serie.
+Ir a la <em>terminal</em> y fijarse la versión de <em>brew</em> y de <em>git</em> con <em>–version</em> y dice cuales están instaladas.</p>
+<p>Para poder gestionar estos códigos colaborativos, GitHub utiliza <em>repositorios</em>, que son las carpetas donde almacena de manera remota y son accesibles a todos los colaboradores. Al generar mi usuario, estoy generando mi carpeta o sea mi repositorio. 
+* En la terminal poner <em>user.name “Irene Costa”</em> 
+* ENTER
+* Luego git <em>config “ <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#105;&#114;&#101;&#110;&#101;&#99;&#111;&#115;&#116;&#97;&#114;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">&#105;&#114;&#101;&#110;&#101;&#99;&#111;&#115;&#116;&#97;&#114;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;</a> “</em> y por último <em>git config –list</em>
+Para que VSC funcione en Mac, luego de hacer esto hay que poner <em>command+shift+p</em> y se despliega un menú y elegir <em>“Shell Command: Install ‘code’ command in PATH”</em>
+En la terminal poner <em>code .</em> (parada en la carpeta documento) y abre el VSC.
+Genera una carpeta <em>.venv</em> que es donde van todos los archivos de <em>pyhton</em> (en Mac)
+* Python3 -m venve .venv
+* <em>Pip install -r requirements.txt</em>, ahi se instalan las dependencias
+Con <em>clear</em> borro todo.
+* Abrir terminal en VSC y escribir  <em>“source”</em>  y aparece el <em>(.venv)</em>  así confirma que estoy usando ese entrono.
+Luego en <em>Readme.md</em> copiar el <em>“mkdocs serve”</em> (ahí nos levanta la web local)</p>
+<p>### Modificar contenido
+En VSC ir a <em>mkdocs.yml</em> y pararse donde se quiere modificar, en este caso MT01.
+Para ver estas modificaciones escribir en la terminal del VSC <em>mkdocs serve</em>.
+ Genera el código y abajo del todo está el URL de mi disco local. Actualizo y voy viendo en mi página local los cambios que realizo.</p>
+<p>### Subir cambios
+Para que no me muestre todo los archivos de las cosas modificadas hacer una carpeta que se llame .gitignore y adentro poner .venv y ya no se visualizo en GitHub.
+En el tercer icono de la izquierda <em>Source Control</em> ir a realizar los cambios.
+<img alt="source_control" src="../../images/MT01/5_source-control.png" />
+Ahí poner un comentario referente al cambio que realicé y darle + a todo lo que me aparece <em>COMMIT</em> , sincronizar <em>Sync Changes 1</em> y ahí recién los pasa a la nube.</p>
+<p>Volver a Github 
+* <em>Repositorio</em>
+* Irene-Costa 
+* <em>Action</em> y ver si esta procesando los cambios.
+Si no se visualizan los camios, hay tres opciones:
+* escribir Ctrl + shift+ R para  actualizar (en la web)
+* Arriba a la derecha / mi icono o foto / delete browind Data… (dibujo de papelera)
+* Abrir en pagina incógnita.</p>
+<p>Markdowntutorial.com puedo ver los códigos para darle estilo al texto.
+Recoerdar poner como títular alguna referencia a los cambios realizados.</p>
+<p>Cada <em>commit</em> es un cambio, puedo verlos, quien lo hizo, y todo lo que va pasando, podemos entrar y ver exactamente que cambios hicieron.</p>
+<p>Si quiero que pare la terminal VSC pongo control+c o cierro.</p>
+<p>### APUNTES </p>
+<p><strong>Pwd</strong> (me dice donde estoy parada)
+<strong>cd + espacio + punto</strong> (nombre de la carpeta)
+<strong>ls + espacio</strong> (alisto a ver que hay en la carpeta)
+<strong>command + shift + punto</strong>  (me muestra carpetas ocultas como ssh)</p>
+<blockquote>
+<p><strong>Fork</strong> es una copia personal del repositorio existente que te permite hacer cambios en el código sin afectar al proyecto original (definición obtenida de la IA).</p>
+<p><strong>Repositorio</strong> es una unidad básica que funciona como una carpeta en la nube para un proyecto de desarrollo, donde se almacenan todos los archivos, el código fuente y el historial de cambios del proyecto utilizando el sistema de control de versiones Git (definición obtenida de la IA)</p>
+</blockquote>
+<p>### NOTAS
+En mi caso trabajé  desde una MacBook Air con sistema macOS Monterrey 12.5. Esto me generó algunas trabas a nivel de permisos para poder trabajar e instalar los distintos archivos. Sumado a que muchos de los términos que trabajamos para mi son nuevos (por este motivo, fui buscando y explicando lo que hace o siginfica cada cosa).<br />
+Recomiendo documentar desde el primer momento los pasos y el porqué de todo lo que se va haciendo. Eso fue un aprendizaje a como continuar documentando. </p>
                 
                   
                     
@@ -472,7 +613,7 @@
 <div class="md-source-date">
   <small>
     
-      Last update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="April 7, 2024 22:18:03 UTC">April 7, 2024</span>
+      Last update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="September 18, 2025 17:47:25 UTC">September 18, 2025</span>
     
   </small>
 </div>

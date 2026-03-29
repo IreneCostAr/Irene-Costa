@@ -670,7 +670,7 @@ Blink_3.2</p>
 5.  Guarda
 <img alt="" src="../../images/MT07/3.1_blynk.png" />
 <img alt="" src="../../images/MT07/botones.jpg" />
-Así se visualizan en mi telégono</p>
+Así se visualizan en mi teléfono</p>
 <ul>
 <li><strong>Arduino</strong>
 Luego que configuré Blynk abro Arduino para ejecutar las órdenes. Como ya he trabajado con el ESP32 en Arduino, voy a herramientas/placa y veo que ya lo tengo instalado y Arduino lo reconoce.</li>
@@ -715,7 +715,7 @@ Conecta así:
 <p><img alt="" src="../images/MT07/Potenciometro.jpg" /></p>
 <blockquote>
 <blockquote>
-<p>Ultizo el cable violeta al medio, conectado al GPIO 35, ya que no tengo 34. En los extremos dejo 3.3v y GND.</p>
+<p>Utilizo el cable violeta al medio, conectado al GPIO 35, ya que no tengo 34. En los extremos dejo 3.3v y GND.</p>
 </blockquote>
 </blockquote>
 <ul>
@@ -742,8 +742,8 @@ int potPin = 34;
 void handleRoot() {
   int valor = analogRead(potPin);
   String html = &ldquo;<html><head><meta http-equiv='refresh' content='1'></head>&ldquo;;
-  html += &ldquo;<body>. <h1> Valor del Potenciometro</h1>&ldquo;;
-  html += &ldquo;<h2>&rdquo; + String(valor) + &ldquo;</h2>&ldquo;;
+  html += &ldquo;Valor del Potenciometro&rdquo;;
+  html += &ldquo;+ String(valor) +&rdquo;;
   html += &ldquo;</body></html>&ldquo;; server.send(200, &ldquo;text/html&rdquo;, html);
 }
 void setup() {
@@ -815,7 +815,7 @@ Sumar software IoT (Internet de las Cosas) como Blynk o webs trabajadas con inte
 <div class="md-source-date">
   <small>
     
-      Last update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="March 29, 2026 20:07:13 UTC">March 29, 2026</span>
+      Last update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="March 29, 2026 20:15:23 UTC">March 29, 2026</span>
     
   </small>
 </div>

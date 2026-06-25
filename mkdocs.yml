@@ -30,10 +30,10 @@ nav:
     - MI02: innovacion/mi02.md
   - Módulo Emprendedor:
     - Módulo emprendor: emprendedor/emprender.md
-  - Proyecto Integrador:
-    - Ideas Iniciales: proyecto/proyecto.md
-    - Procesos: proyecto/proyecto.md
-    - Proyecto integrador: proyecto/proyecto.md
+  - - Proyecto Integrador:
+    - Ideas Iniciales: proyecto/ideas-iniciales.md
+    - Procesos: proyecto/procesos.md
+    - Proyecto Integrador: proyecto/proyecto-integrador.md
   - Referencias:
     - web: ref/web.md
 

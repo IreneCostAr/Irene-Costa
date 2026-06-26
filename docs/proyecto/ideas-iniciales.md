@@ -23,7 +23,7 @@ Antecedentes y Estado del Arte.
 
 **Perfil y Conocimientos Previos**
 
-Mi punto de partida en esta investigación se cimenta en mi formación como **Diseñadora Industrial**. A lo largo de mi práctica, he desarrollado experiencia en el comportamiento y modelado de arcillas cerámicas, así como en aproximaciones prácticas al campo de los tintes naturales, los biomateriales y la fabricación digital.
+Mi punto de partida en esta investigación se cimenta en mi formación como Diseñadora Industrial. A lo largo de mi práctica, he desarrollado experiencia en el comportamiento y modelado de arcillas cerámicas, así como en aproximaciones prácticas al campo de los tintes naturales, los biomateriales y la fabricación digital.
 El cruce propuesto en está especialización nace de la intención de aplicar la sensibilidad del diseño y el oficio artesanal a procesos de manufactura más precisos, tecnológicos y sustentables. Este camino se nutre, además, del diálogo con mi maestra ceramista y del acompañamiento del equipo docente interdisciplinario, cuyos saberes abarcan desde la electrónica y la automatización hasta la ciencia de los biomateriales.
 
 **Antecedentes y Estado del Arte**

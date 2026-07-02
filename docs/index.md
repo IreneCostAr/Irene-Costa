@@ -1,5 +1,6 @@
-## Welcome
+## Bitácora de proceso
 
-![](../images/perezoso.jpg)
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Esta bitácora contiene el documento vivo de mi proceso de formación a lo largo de la Especialización. A través de este espacio, me propongo hacer un recorrido académico y experimental, integrando los conocimientos adquiridos en los diferentes módulos y mi Proyecto Final Integrador.
+
+Entendiendo el diseño desde una perspectiva distribuida y colaborativa, estas páginas se abren para visibilizar no solo los resultados finales, sino los desvíos, los ensayos y los cruces interdisciplinarios que hicieron posible la investigación. Es el testimonio de un hacer reflexivo en el taller, donde la tecnología y el oficio local se encuentran para ensayar nuevas respuestas materiales.

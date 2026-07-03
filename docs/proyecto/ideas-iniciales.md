@@ -6,7 +6,7 @@ hide:
 # Ideas iniciales y Marco conceptual
 
 
-## **Introducción**
+## Introducción
 
 ***Inquieta***
 
@@ -28,7 +28,7 @@ Para validar el éxito de estos experimentos en la bitácora, la investigación 
 
 Mi punto de partida en esta investigación se cimenta en mi formación como Diseñadora Industrial. A lo largo de mi práctica, he desarrollado experiencia en el comportamiento y modelado de arcillas cerámicas, así como en aproximaciones prácticas al campo de los tintes naturales, los biomateriales y la fabricación digital.
 
-El cruce propuesto en está especialización nace de la intención de aplicar la sensibilidad del diseño y el oficio artesanal a procesos de manufactura más precisos, tecnológicos y sustentables. Este camino se nutre, además, del diálogo con mi maestra ceramista y del acompañamiento del equipo docente interdisciplinario, cuyos saberes abarcan desde la electrónica y la automatización hasta la ciencia de los biomateriales.
+El cruce propuesto en está especialización nace de la intención de **aplicar la sensibilidad del diseño y el oficio artesanal a procesos de manufactura más precisos, tecnológicos y sustentables**. Este camino se nutre, además, del diálogo con mi maestra ceramista y del acompañamiento del equipo docente interdisciplinario, cuyos saberes abarcan desde la electrónica y la automatización hasta la ciencia de los biomateriales.
 
 ## **Antecedentes y Estado del Arte**
 
@@ -40,7 +40,7 @@ Esta bitácora busca, justamente, comenzar a mapear y proponer respuestas desde 
 Es una iniciativa uruguaya dedicada a la educación, diseño y creación de alternativas ecológicas a partir de residuos orgánicos
 https://www.instagram.com/biomaterials_club/
 - **HIFA** URUGUAY
-un emprendimiento que genera biomateriales capaces de reemplazar al plástico y sus derivados, a partir de desechos agroindustriales como por ejemplo: cáscara de arroz, el aserrín o el rastrojo; estos residuos se mezclan con un hongo comestible que, previamente, crece en un sustrato
+Es un emprendimiento que genera biomateriales capaces de reemplazar al plástico y sus derivados, a partir de desechos agroindustriales como por ejemplo: cáscara de arroz, el aserrín o el rastrojo; estos residuos se mezclan con un hongo comestible que, previamente, crece en un sustrato
 https://cie.ort.edu.uy/emprendimientos/hifa
 - **Etimo Biomateriales** ARGENTINA
 Es un proyecto y laboratorio argentino que transforma residuos orgánicos—como la borra de café o la yerba mate—en bioproductos 100 % biobasados y biodegradables
@@ -52,14 +52,14 @@ https://calcareo.cl/bbsd/
 https://www.instagram.com/repulpdesign/
 Es un estudio de diseño francés ecoresponsable basado en Marsella, especializado en la creación de vajilla y objetos cotidianos fabricados a partir de residuos de cítricos.
 - **Marca Corona**  ITALIA
-Arcillas Ferrosas, Gres Porcelánico, Caolín
+Trabajan con Arcillas Ferrosas, Gres Porcelánico, Caolín.
 Se destaca por ser la empresa cerámica más antigua de Sassuolo (el corazón de la industria en Italia), operando desde 1741. 
 Antes de que una colección llegue a las grandes prensas o impresoras digitales, el equipo de diseñadores y maestros ceramistas de la marca crea los prototipos y texturas en talleres internos. Modelan la arcilla manualmente, mezclan pigmentos naturales y esculpen relieves para definir exactamente cómo debe comportarse el material ante la luz. Una vez que logran la imperfección perfecta de la artesanía, ese molde o diseño se digitaliza a ultra-alta definición para replicarlo industrialmente
 - **Organic.Studio** ESPAÑA
 https://organicstudio.es/
 Es un espacio que aúna arte, ciencia y sostenibilidad. Este laboratorio creativo propone el arte de una manera innovadora, combinándolo con la ciencia para abordar de forma más completa los retos actuales y futuros.
 
-**Enfoques conceptuales y de proceso**
+### Enfoques conceptuales y de proceso
 
 Como paso previo a la formulación del proyecto, realicé una pequeña investigación exploratoria sobre compuestos y descartes aptos para fusionar con arcillas cerámicas y biofabricación. 
 
@@ -67,13 +67,13 @@ Sabía que existen muchas problemáticas con los desechos en nuestro territorio.
 
 Mi primera línea de interés se centró en los lodos residuales de potabilización de agua. Lamentablemente, tras articular gestiones institucionales con OSE, la Intendencia y la Facultad de Ciencias, las barreras burocráticas impidieron la obtención de las muestras. Continuando en la búsqueda, reevalúe mis alternativas. Sabía que en Uruguay la recuperación y clasificación de descartes está aún en construcción, lo que abría un abanico de otras oportunidades esperando ser exploradas.
 
-Así fue como llegué a Arenas de Vidrio, un emprendimiento local que trabaja en la molienda de vidrio recuperado de envases post consumo. Actualmente procesan dos tipos de granulometrías (fina y gruesa) combinando vidrios de diversos orígenes, ya que el sistema aún no permite la clasificación por color. Su mercado principal está hoy en la construcción —reemplazando la arena natural por vidrio en la fabricación de baldosas— y en aplicaciones viales para mezclas asfálticas.
+Así fue como llegué a *Arenas de Vidrio*, un emprendimiento local que trabaja en la molienda de vidrio recuperado de envases post consumo. Actualmente procesan dos tipos de granulometrías (fina y gruesa) combinando vidrios de diversos orígenes, ya que el sistema aún no permite la clasificación por color. Su mercado principal está hoy en la construcción —reemplazando la arena natural por vidrio en la fabricación de baldosas— y en aplicaciones viales para mezclas asfálticas.
 
 Para complementar esta línea y sumar un segundo aditivo experimental, decidí incorporar viruta metálica. Tengo acceso directo a un taller metalúrgico, esto me permitió identificar que, si bien una parte de la chatarra pesada se recupera en Uruguay, los polvos de fundición y los recortes pequeños resultantes del mecanizado suelen terminar en el descarte común, barridos y mezclados con la basura general. Es allí donde encontré mi segundo vector de investigación.
 
-Y como tercera opción recolecté cucharitas de mejillones en la playa, aunque ambientalmente no suelen ser un problema en si se descomponen en la arena una vez que muere el mejillón y eso queda en la orilla, muchas veces en grandes volúmenes. Desde la perspectiva del diseño material se transforma en una fuente local y renovable de carbonato de calcio. Al procesar estas cucharitas (lavándolas, calcinándolas y moliéndolas), se obtiene un insumo que en cerámica actúa como estabilizador en pastas y como fundente de alta temperatura en esmaltes, permitiendo sustituir minerales de cantera extractiva por recursos recolectados en el propio territorio. Lo mismo que sucede con el vidrio molido que puede remplazar la arena de las canteras.
+Y como tercera opción recolecté cucharitas de mejillones en la playa, aunque ambientalmente no suelen ser un problema en si, se descomponen en la arena una vez que muere el mejillón, y eso queda en la orilla, muchas veces en grandes volúmenes. Desde la perspectiva del diseño material se transforma en una fuente local y renovable de carbonato de calcio. Al procesar estas cucharitas (lavándolas, calcinándolas y moliéndolas), se obtiene un insumo que en cerámica actúa como estabilizador en pastas y como fundente de alta temperatura en esmaltes, permitiendo sustituir minerales de cantera extractiva por recursos recolectados en el propio territorio. Lo mismo que sucede con el vidrio molido que puede remplazar la arena de las canteras.
 
-## Metodología de enfoque local y circular
+### Metodología de enfoque local y circular
 La basura y el descarte están al alcance de todos; es cuestión de afinar la mirada sobre nuestro entorno cotidiano para entender qué residuo aparece con mayor frecuencia. En mi caso, me resultó particularmente interesante explorar el potencial de los residuos de origen vítreo, calcáreo y metálicos que encontré a mano en mi contexto local. Mientras que la reutilización de residuos orgánicos presenta un desarrollo avanzado, los desechos vítreos, calcáreos y metálicos suelen tener menor visibilidad. Sin embargo, su integración permite generar otro tipo de compuestos e invita a recapacitar sobre nuestros hábitos de consumo y sobre el valor de lo que consideramos "desecho".
 
 **Desarrollo Experimental**
@@ -84,6 +84,7 @@ Para llevar adelante estas prácticas, me apoyé en la tecnología en dos frente
 - **Control ambiental (Cámara de secado)**: Diseñé e implementé una cámara armada específicamente para monitorear y controlar la temperatura y la humedad. Esta infraestructura fue fundamental para asegurar un secado parejo y controlado de las piezas cerámicas y los biomateriales, evitando fisuras y deformaciones antes de sus procesos finales o de la quema.
 
 - **Fabricación digital**: Experimenté con el diseño de moldes de precisión para trabajar estos compuestos experimentales con mayor detalle y evaluar su reproducibilidad.
+
 La forma en que habitamos el planeta y la gestión deficiente de los residuos configuran una problemática global que necesita respuestas locales. Desde mi territorio, este proyecto busca aportar soluciones en la etapa misma del codiseño material, asumiendo la responsabilidad del ciclo de vida de lo que produzco. Más que buscar grandes respuestas globales, lo planteo como un ejercicio de aprendizaje personal y experimentación práctica: desde recolectar los descartes y armar la infraestructura de secado, hasta hornear las primeras cerámicas y ver los resultados en bioplásticos. Lograr completar este ciclo completo tiene un valor enorme para mi formación.
 
 

@@ -9,13 +9,13 @@ hide:
 
 Este proyecto integrador surge como un espacio para aplicar los conocimientos adquiridos a lo largo de la Especialización de forma efectiva y coherente, poniendo al servicio un desarrollo innovador que aporte valor real a las personas. El objetivo central es demostrar la capacidad de articular de forma armónica tres áreas fundamentales: **Diseño, Tecnología y Fabricación, e Innovación y Sostenibilidad**. 
 
-A través de la experimentación y la difusión abierta de esta bitácora, Inquieta busca abrir la posibilidad de generar nuevos productos y estudiar su comportamiento en la realidad local. Se plantea como una metodología con potencial escalable y replicable en distintos entornos, capaz de generar un impacto ambiental y social positivo mediante la visibilización de caminos productivos alternativos.
+A través de la experimentación y la difusión abierta de esta bitácora, *Inquieta* busca abrir la posibilidad de generar nuevos productos y estudiar su comportamiento en la realidad local. Se plantea como una metodología con potencial escalable y replicable en distintos entornos, capaz de generar un impacto ambiental y social positivo mediante la visibilización de caminos productivos alternativos.
 ### 2. Área de Diseño (MD) — El "Qué" y "Para Quién"
 
 **El Origen de la Búsqueda: *Inquieta***
 Después de darle muchas vueltas, entendí que el núcleo del proyecto debía ser aquello que encendía mi búsqueda: una exploración continua de alternativas donde todo se transforma a través de la experimentación con nuestro entorno.
 
-Así es que este proyecto se titula Inquieta. Esa palabra encierra la naturaleza y conducta del material (que se mueve, cambia, se contrae), describe mi estado como investigadora (que no se conforma y quiere seguir probando) y define la metodología del proyecto: un proceso dinámico, vivo y en constante evolución. Lejos de seguir una receta lineal y cerrada, esta investigación se motoriza a través de una curiosidad que no se detiene. Inquieta es, en definitiva, el estado de una investigación abierta que asume el ensayo, el error y la experimentación permanente como la única vía posible para dar vida a nuevas soluciones de diseño.
+Así es que este proyecto se titula *Inquieta*. Esa palabra encierra la naturaleza y conducta del material (que se mueve, cambia, se contrae), describe mi estado como investigadora (que no se conforma y quiere seguir probando) y define la metodología del proyecto: un proceso dinámico, vivo y en constante evolución. Lejos de seguir una receta lineal y cerrada, esta investigación se motoriza a través de una curiosidad que no se detiene. Inquieta es, en definitiva, el estado de una investigación abierta que asume el ensayo, el error y la experimentación permanente como la única vía posible para dar vida a nuevas soluciones de diseño.
 
 **La Propuesta Técnica**
 La propuesta consiste en el desarrollo de nuevos materiales híbridos a partir de la incorporación de residuos calcáreos y metálicos de origen local en matrices de arcillas cerámicas y otros compuestos aglutinantes. A través de la experimentación con altas temperaturas y la exploración de diversos acabados, el proyecto busca generar piezas (como baldosas, placas u objetos funcionales) capaces de sustituir materiales e insumos de la industria tradicional. Para estabilizar estos compuestos experimentales, se incorpora tecnología de control de variables críticas (humedad y temperatura) y el diseño de moldes de alta fidelidad que aseguren la precisión y repetibilidad de las piezas.
@@ -23,7 +23,7 @@ La propuesta consiste en el desarrollo de nuevos materiales híbridos a partir d
 **Público Objetivo y Necesidades que Resuelve**
 La investigación está dirigida a una red interdisciplinaria que abarca a diseñadores, artistas, arquitectos, la industria creativa y, potencialmente proyectos enfocados en la sostenibilidad integral.
 
-Inquieta resuelve la falta de alternativas sostenibles frente a los materiales industriales tradicionales y mitiga problemas locales de gestión de residuos al revalorizar desechos sin uso productivo actual en Uruguay. Asimismo, resuelve un problema técnico del taller artesanal: el secado seguro y controlado de mezclas complejas expuestas a las inclemencias del clima.
+*Inquieta* resuelve la falta de alternativas sostenibles frente a los materiales industriales tradicionales y mitiga problemas locales de gestión de residuos al revalorizar desechos sin uso productivo actual en Uruguay. Asimismo, resuelve un problema técnico del taller artesanal: el secado seguro y controlado de mezclas complejas expuestas a las inclemencias del clima.
 
 **Propuesta de Valor**
 - **Relevancia:** Aborda una problemática ambiental global desde una escala de acción local, reduciendo el impacto en producción y consumo, pero sobre todo, planteando nuevas matrices de pensamiento respecto a la cultura material que nos rodea.
@@ -86,3 +86,19 @@ La masa sigue siendo inquieta, el invierno uruguayo mantiene su humedad desafian
 ### Video de presentación
 
 https://www.youtube.com/shorts/CleMgoVJkdI
+
+
+
+### Rereferencias 
+
+Arenas de vidirio
+https://adv.uy/
+
+Metalúrgica 
+https://www.guzmanvillalba.com.uy/
+
+INUMET
+https://www.inumet.gub.uy/
+
+
+

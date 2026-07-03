@@ -18,7 +18,7 @@ A partir de este análisis, recolecté tres categorías de descarte:
 - **Residuos calcáreos:** Recolecté cucharitas de mejillón en la orilla de la playa, las cuales lavé, limpié y trituré. Este residuo orgánico costero es una fuente excelente y renovable de Carbonato de Calcio.
 
 ![](../images/proyecto/1-muestras.jpg)
- >>Muestas de los residuos metálicos y vítreos recolectados 
+ >>Muestas de los residuos metálicos y vítreos 
 
 ![](../images/proyecto/1-mejillones-triturados.jpg)
  >>Una vez limpias las cucharitas de mejillones, fueron trituradas con un molinillo
@@ -26,7 +26,7 @@ A partir de este análisis, recolecté tres categorías de descarte:
 
 
 **1. Criterios de ensayo y variables de control**
-Armé los cuadros de lo que buscaba investigar en cada muestra
+Armé los cuadros de lo que buscaba investigar con cada muestra.
 
 **Ficha de muestra**
 ![](../images/proyecto/2-ficha-muestra.png)
@@ -56,7 +56,6 @@ Tanto las pastas cerámicas híbridas como los bioplásticos son extremadamente 
 
 - **1. Estructura y Hardware**
 **Dimensiones y estructura:** Definí que el tamaño de la cámara fuera de 30x30x45 cm, considerando las dimensiones del horno cerámico que utilizo habitualmente. La carcasa y soporte estructural de la cámara se diseñaron digitalmente primero con Fusion 360 y luego en RD Works que permite cortar (Cut), Escanear/Grabar (Scan). Esto es variando las velocidades y potencia (en MT03 está explicado más en detalle). Luego se materializaron utilizando la máquina de corte láser, logrando un ensamble preciso y modular para los componentes electrónicos. 
-
 Su puerta tiene un vidrio de 20x20cm y 5mm de espesor, que permite visualizar lo que está sucediendo dentro.
 
 - **Circulación de aire:** Instalé dos ventiladores de 5V para extraer el aire húmedo interior (puse dos porque uno solo se quedaba corto de potencia) y un tercer ventilador interno dedicado exclusivamente a mover el aire y homogeneizar el ambiente.
@@ -76,7 +75,7 @@ Mis conocimientos de electrónica eran básicos (lo aprendido en los módulos de
 
 Durante una instancia presencial con los docentes, logré soldar el sensor, probar los ventiladores y armar el circuito de los relés con la manta. Esto me ayudó muchísimo a entender el flujo real de las conexiones.
 
-Sin embargo, el trabajo en casa tuvo sus complicaciones. Al conectar todo en la protoboard, el ESP32 ocupaba casi toda la placa y me quedé sin espacio para los cables, lo que me obligó a comprar una segunda placa de pruebas. El momento crítico llegó cuando, con todo cableado y las luces encendidas, el sistema no respondía. Tras investigar y razonar el circuito, descubrí que era un problema de asignación de pines. Estaba usando los pines **GPIO 2 y 4**, que son pines de arranque (boot) y se veían afectados por el voltaje de los componentes externos. Con ayuda, cambié la programación a los pines **GPIO 13 y 14** (puertos seguros de propósito general) y el sistema finalmente funcionó. Con el hardware validado, subí el código final desde el entorno de Arduino, como ya había trabajado con ESP32 tenía la biblioteca descargada, luego fue copiar y pegar lo que le había pedido a la IA que fue: Tengo un ESP32 que quiero que haga esto y esto otro, tengo un EMB680, un reles conectado a una manta de calor y otro a tres ventiladores.
+Sin embargo, el trabajo en casa tuvo sus complicaciones. Al conectar todo en la protoboard, el ESP32 ocupaba casi toda la placa y me quedé sin espacio para los cables, lo que me obligó a comprar una segunda placa de pruebas. El momento crítico llegó cuando, con todo cableado y las luces encendidas, el sistema no respondía. Tras investigar, consultar a compañeros y docentes, poco a poco razonar el circuito, descubrí que era un problema de asignación de pines. Estaba usando los pines **GPIO 2 y 4**, que son pines de arranque (boot) y se veían afectados por el voltaje de los componentes externos. Cambié la programación a los pines **GPIO 13 y 14** (puertos seguros de propósito general) y el sistema finalmente funcionó. Con el hardware validado, subí el código final desde el entorno de Arduino, como ya había trabajado con ESP32 tenía la biblioteca descargada, luego fue copiar y pegar lo que le había pedido a la IA que fue: "Tengo un ESP32 que quiero que haga esto y esto otro, tengo un EMB680, un reles conectado a una manta de calor y otro a tres ventiladores".
 
 ![](../images/proyecto/2-circuito.png)
 
@@ -114,6 +113,7 @@ Para asegurar copias fieles, utilicé dos estrategias de moldeado:
 A partir del modelo 3D realicé un contramolde con silicona (derecha).
 
 ![](../images/proyecto/3-3D.jpg)
+>> Proceso de realización de moldes en impresora 3D
 
 ![](../images/proyecto/moldes-proceso.png)
 
@@ -124,11 +124,7 @@ El desarrollo formal comenzó con la investigación de familias de azulejos modu
 
 El flujo de trabajo digital se dividió en dos etapas:
 - **Modelado y 3D (Impresión FDM):** Primero dibujé los perfiles en 2D utilizando Adobe Illustrator para explorar alternativas rápidamente. Una vez definidas las primeras geometrías modulares, las modelé en Fusion 360 para prepararlas para la impresión 3D. Las primeras impresiones de prueba las realicé en el laboratorio de Durazno, en RAISE3D Pro2Plus, y la producción final de los otros sellos lo hice en Minas utilizando una impresora Bambu Lab. Para el laminado y la impresión, apliqué los mismos parámetros técnicos analizados durante la especialización (MT05).
-
-
-
-
-También modelé las carcasas para los dispositivos electrónicos, que quedara más prolijo y protegiera el sensor y los relés que pueden sern peligrosos.
+También modelé las carcasas para los dispositivos electrónicos, que quedara más prolijo y protegiera el sensor y los relés que pueden ser peligrosos.
 
 ![](../images/proyecto/3-cajita-modelado.png)
 
@@ -137,12 +133,14 @@ También modelé las carcasas para los dispositivos electrónicos, que quedara m
 **Diseño 2D (Corte y Grabado Láser):** Para la fabricación de la estructura de la cámara de secado y otros componentes planos, el camino consistió en vectorizar los planos en 2D y configurar los parámetros de potencia y velocidad directamente en el software de la máquina de corte láser.
 
 ![](../images/proyecto/3-laser-bio.png)
+>> Busqué otro tipo de formas más libres. Partí de un azulejo típico de casa antiguas de Uruguay, lo dibujé en Adobe Illustrator y luego en  RD Works coloqué en cada capa lo que era para cortar y lo que era para grabar, ajustando velocidades y potencia.
 
 ### *- Catálogo de Ensayos y Resultados (Las 5 Muestras)*
 Con la infraestructura lista y las bases metodológicas establecidas, inicié la producción de cinco muestras físicas (tres cerámicas y dos de bioplásticos). Los ensayos se sistematizaron bajo los criterios de control y las fichas de registro definidas previamente.
 
-**Línea Cerámica:** Hibridación con Vidrio, Metal y Valvas de Mejillón
+**Línea Cerámica:** Hibridación con Vidrio, Metal y Cucharitas de Mejillón
 El residuo vítreo actúa como fundente promoviendo la vitrificación y reduciendo la porosidad, mientras que el hierro favorece la densificación y aporta color. Sin embargo, un exceso de ambos materiales corre el riesgo de deformar las piezas en el horno. Debido a los tiempos de iteración, concentré la experimentación en dos dosificaciones principales: una serie inicial con mayor porcentaje de residuo y otra posterior con carga reducida.
+
 **Muestra Cerámica 1:** Técnica de Plancha + Inclusiones (Vidrio / Viruta / Valvas de Mejillón)
 Objetivo del test: Evaluar el comportamiento físico y cromático de los tres residuos a altas temperaturas.
 **Ficha Técnica:**
@@ -151,15 +149,14 @@ Masa utilizada: "Arcilla Nacional" (Casa del Ceramista).
 Dimensiones en crudo: 11 x 11 x 1 cm.
 Peso en crudo: 287 g.
 Dosificación de residuo: 30% del peso en crudo de la pasta.
-Temperatura de quema: 1040 °C.
-Tiempo de secado: 10 días ambientales.
-**Resultado y Comportamiento:** Se analizó si los descartes se fundían, cambiaban de color o lograban ligarse correctamente a la matriz arcillosa. El ensayo demostró que un 30% de carga provoca porosidad y genera microfisuras o deformaciones críticas por tensiones de contracción contrapuestas durante la quema.
+Temperatura de horno: 1040 °C.
+Tiempo de secado: 10 días (en ambiente).
+**Resultado y Comportamiento:** Se analizó si los descartes se fundían, cambiaban de color o lograban mezclarse correctamente a la matriz arcillosa. El ensayo demostró que provoca porosidad y en alguna pieza se generó microfisuras o deformaciones por tensiones de contracción contrapuestas durante la quema.
 
 ![](../images/proyecto/3-muestra-1.jpg)
->> En esta primera muestra a 1040º se fundió sin problema el vidrio (su punto de fusión es 850º) 
-El mejillon quedó hecho un polvo blanco, no se logra distinguir.
-Quedó bastante aspero al tacto.
+>> En esta primera muestra el mejillon quedó hecho un polvo blanco que no se logra distinguir, debería probar a menor temperatura (primer pieza).
 En la muestra más a la derecha, el vidrio grueso se lo coloqué por encima y se formaron pequeñas pelotitas pegadas a la cerámica y el metal tiño más que en las muestras de abajo donde estaba mezclado previamente.
+El hierro solo queda medio fundido y rígido al enfriar, muy áspero.
 
 **Muestra Cerámica 2:** Técnica de Colada + Inclusiones (Vidrio / Viruta)
 **Objetivo del test:** Evaluar la capacidad de suspensión de la barbotina híbrida y la capilaridad del molde de yeso utilizando una menor proporción de residuos.
@@ -170,11 +167,11 @@ Fórmula de Barbotina: 1 kg de arcilla + 0,5 L de agua + 3 ml de desfloculante.
 Dosificación de residuo: 20% del peso en crudo.
 Variables ensayadas: Metal, vidrio fino, vidrio grueso y mix.
 Proceso: Colada a las 2 horas de preparar la mezcla. Desmolde a las 24 horas.
-Temperatura de quema (Bizcochado inicial): 740 °C.
-Tiempo de secado: 11 días.
-**Resultado y Comportamiento:** La reducción al 20% mejoró la estabilidad dimensional. El peso denso del vidrio grueso y el metal presentó una leve decantación en el fondo del molde antes de que el yeso absorbiera el agua por capilaridad.
+Temperatura de horno: (Algunas piezas con bizcochada inicial): 740 °C.
+Tiempo de secado: 11 días (en ambiente).
+**Resultado y Comportamiento:** Quedaron piezas con dimensiones estables. El peso denso del vidrio grueso y el metal presentó una leve decantación en el fondo del molde antes de que el yeso absorbiera el agua por capilaridad y algunas piezas se rajaron.
 
-**Análisis del Secado y Quema:** Durante la primera semana de junio de 2026, la humedad relativa en Montevideo osciló entre el 80% y el 95%. Tras 11 días de secado ambiental, las piezas seguían húmedas, por lo que decidí realizar un pre-secado en horno doméstico a fuego mínimo por 30 minutos. Aun así, algunas piezas explotaron en el horno cerámico; esto constató que la masa no había alcanzado el "estado de cuero" ideal debido a la saturación ambiental. Asimismo, las probetas de barbotina mostraron rajaduras superficiales, lo que podría atribuirse a haber preparado la barbotina disolviendo arcilla empaquetada en lugar de formularla desde materias primas secas, alterando la orientación de las partículas de arcilla.
+**Análisis del Secado y horno:** Durante la primera semana de junio de 2026, la humedad relativa en Montevideo osciló entre el 80% y el 95%. Tras 11 días de secado ambiental, las piezas seguían húmedas, por lo que decidí realizar un pre-secado en horno doméstico a fuego mínimo por 30 minutos. Aun así, algunas piezas explotaron en el horno cerámico; esto constató que la masa no había alcanzado el "estado de cuero" ideal debido a la saturación ambiental. Asimismo, las muestras de barbotina mostraron rajaduras superficiales, lo que podría atribuirse a haber preparado la barbotina disolviendo arcilla empaquetada en lugar de formularla desde materias primas secas, alterando la orientación de las partículas de arcilla.
 ![](../images/proyecto/molde-yesos.jpg)
 >> Muestras realizadas por coladas
 
@@ -182,29 +179,30 @@ Tiempo de secado: 11 días.
 >> Muestras con aplicación de sellos
 
 ![](../images/proyecto/horno.jpg)
->> Horneada cacera para terminar de secar las muestras
+>> Horneada doméstica para terminar de secar las muestras
 
 ![](../images/proyecto/muestra-2.jpg)
 >> Además de las muestras con sellos y colada. Volvía meter las dos piezas que estan por fuera, que ya habían tenído una horneada a 1040º y en esta muestras le agregué residuos y barbotina
 
-**Nota sobre el residuo calcáreo:** Las valvas de mejillón calcinadas a esta temperatura se transformaron por completo en un polvo blanco desmenuzable ($CaO$). Al no integrarse mecánicamente de esta forma, se descartó su uso directo en la barbotina, abriendo la interrogante de cómo procesarlo en fases futuras (por ejemplo, como fundente finamente molido dentro de un esmalte).
+**Nota sobre el residuo calcáreo:** Las cucharitas de mejillón calcinadas a esta temperatura se transformaron por completo en un polvo blanco desmenuzable ($CaO$). Al no integrarse mecánicamente de esta forma, se descartó su uso directo en la barbotina, abriendo la interrogante de cómo procesarlo en fases futuras (por ejemplo, como fundente finamente molido dentro de un esmalte u horneadas a menor temperatura).
 
 **Muestra Cerámica 3:** Técnica de Sellos + Inclusiones y Aplique de Esmalte
-Objetivo del test: Evaluar la fidelidad de copiado superficial frente a las partículas y la respuesta cromática ante un acabado brillante e impermeable.
+Objetivo del test: Evaluar la respuesta cromática ante un acabado brillante e impermeable.
 **Ficha Técnica:**
 Fecha: 14/06/2026
 Masa utilizada: "Arcilla Nacional" (Casa del Ceramista).
 Dosificación de residuo: 20% del peso en crudo.
 Temperatura de quema: 740 °C.
 Tiempo de secado: 10 días ambientales + 30 minutos de pre-secado doméstico.
-**Resultado y Comportamiento:** Al presionar el sello sobre la masa, se constató que las partículas más grandes de viruta metálica arrastraban la pasta y "desgarraban" levemente la superficie, disminuyendo la fidelidad en relieves muy finos. Al aplicar el esmalte transparente sobre el bizcocho, se evaluó cómo este interactuaba químicamente con las inclusiones metálicas y de vidrio expuestas, observando variaciones locales de color y textura alrededor de cada partícula.
+**Resultado y Comportamiento:**  Al aplicar el esmalte transparente sobre el bizcocho, se evaluó cómo este interactuaba químicamente con las inclusiones metálicas y de vidrio expuestas, observando variaciones locales de color y textura alrededor de cada partícula.
 ![](../images/proyecto/brilli.jpg)
 >> Piezas pulverizadas con esmalte, previo al horno
 
 ![](../images/proyecto/muestras-ceramica.jpg)
->> Las muestras 1 y 2 las apliqué espalte incoloro, levantó mucho visualmente los colores y quedó un poco mas suave al tacto.
+>> Las muestras 1 y 2 les apliqué esmalte incoloro, levantó mucho visualmente los colores y quedó un poco mas suave al tacto.
+
 ![](../images/proyecto/colada-mala.jpg)
->> Como en las muestras pequeñas por colada se rajaron un poco algunas, decidí hacer una prueba a otra escala y paso lo mismo, se secaba y rajaba, por eso creo que el tema esta en la masa y no en los residuos, porque si pasa esto previo a la horneada, me da indicio que la barbotina utilizada no fue la mejor opción.
+>> Como en las muestras pequeñas por colada algunas se rajaron un poco, decidí hacer una prueba a otra escala y paso lo mismo, se secaba y rajaba antes de desmoldar, por eso creo que el tema esta en la masa y no en los residuos, porque si pasa esto previo a la horneada, me da indicio que la barbotina utilizada no fue la mejor opción.
 
 **Línea Biomateriales:** Bioplásticos de Matriz Flexible
 Utilicé una formulación base de gelatina (seleccionada por su alta flexibilidad y procesamiento simple en solución acuosa) combinada con aditivos locales.
@@ -216,37 +214,45 @@ Objetivo del test: Explorar las propiedades mecánicas de la matriz, su nivel de
 **Ficha Técnica:**
 Espesor: 1,5 cm.
 Herramientas: Molde liso para lámina y sellos rígidos impresos en 3D.
-Tiempo de secado: 1 mes (en cámara y ambiente).
+Tiempo de secado: 1 mes (en ambiente).
 **Resultado y Comportamiento:** Los sellos rígidos copiaron la textura perfectamente en las zonas controladas. Sin embargo, debido a una falla en el sellado de la base del molde (se filtró líquido por debajo), la pieza final presentó variaciones accidentales de espesor y transparencia.
 Post-procesamiento digital: Al someter la lámina curada a la máquina de corte y grabado láser, se observó que el corte no fue limpio; incluso aumentando la potencia, los bordes perdieron definición en ambas escalas de ensayo. Por el contrario, el grabado láser logró una definición excelente, quemando la superficie de manera precisa y controlada sin derretir la matriz circundante.
+
+María Clara Freyre, docente de la EFDI, me compartió estos parámetros, para realizar las primeras muestras y luego ajustar si hiciera falta.
+
+**Grabado**: Velocidad 200 m/s, Potencia 10% ( de 15% a 20% para mayor definición)
+**Corte**: Velocidad 100 m/s, Potencia 20% (esto para láminas finas, en tu caso recomiendo probar V 80, P 25)
 ![](../images/proyecto/rojo.jpg)
 ![](../images/proyecto/molderojo.png)
 ![](../images/proyecto/43-laser1.jpg)
 
 
-**Muestra Bioplástico 2:** Pigmentación Natural (Cúrcuma) y Cargas
-Objetivo del test: Experimentar con un espesor mayor en moldes de silicona y testear la respuesta al corte láser con el material en diferentes estados de curado.
+**Muestra Bioplástico 2:** Pigmentación Natural (Cúrcuma).
+Objetivo del test: Experimentar con un espesor mayor en moldes de silicona (moldes blandos) y testear la respuesta al corte láser.
 **Ficha Técnica:**
 Espesor: Entre 2 y 2,5 cm.
 Herramientas: Moldes de silicona (combinando una matriz copiada de impresión 3D y un molde comercial).
-Tiempo de secado: 11 días.
-**Resultado y Comportamiento:** El desmolde en silicona mantuvo la fidelidad geométrica gracias a la flexibilidad del molde. Sin embargo, al intentar realizar el corte láser a los 11 días, el material aún retenía demasiada agua libre en su interior debido al promedio de humedad de junio (85-90%). El calor del láser provocó que el agua remanente hirviera dentro de la matriz, generando un efecto de burbujas y un dibujo extraño y distorsionado en los bordes de corte. Este resultado demostró la necesidad crítica de un secado prolongado y estandarizado en la cámara automatizada para piezas de gran espesor.
-![](../images/proyecto/preparacion-bioo.jpg)
-![](../images/proyecto/materialess-amarillos.jpg)
+Tiempo de secado: 11 días (en ambiente).
+**Resultado y Comportamiento:** El desmolde en silicona mantuvo la fidelidad geométrica gracias a la flexibilidad del molde. Sin embargo, al intentar realizar el corte láser a los 11 días, el material aún retenía demasiada agua en su interior debido al promedio de humedad de junio (85-90%). El calor del láser provocó que el agua hirviera dentro de la matriz, generando un efecto de burbujas y un dibujo extraño y distorsionado en los bordes de corte. Este resultado demostró la necesidad crítica de un secado prolongado y estandarizado en la cámara automatizada para piezas de gran espesor.
+![](../images/proyecto/laser-borde.jpg)
 
+![](../images/proyecto/preparacion-bioo.jpg)
+>> Proceso de la elaboración del material
+
+![](../images/proyecto/materialess-amarillos.jpg)
 
 
 **4. Conclusiones y Decisiones Clave**
 El cierre de esta experiencia práctica permitió validar los cinco pilares fundamentales que guiaron la investigación:
-Uso de residuos locales: Permitió trabajar de forma honesta con la disponibilidad real del territorio, reduciendo los impactos logísticos y generando consciencia sobre las mermas industriales y los hábitos de consumo cotidianos.
-Combinación con matriz ceramicoplástica: Aseguró la cohesión estructural y permitió comprender la viabilidad técnica y los límites térmicos de los descartes minerales y metálicos a altas temperaturas.
-Incorporación de moldes de precisión: Aportó el rigor geométrico, la escalabilidad y la copia fiel al detalle indispensables para compensar las grandes contracciones e inestabilidades propias de ambos materiales experimentales.
-Integración tecnológica (Cámara de secado IoT): Se validó como una infraestructura crítica para estandarizar y controlar las variables climáticas extremas de nuestro entorno local (como las altas humedades de junio), las cuales alteran los tiempos del taller y provocan fallas por estrés hídrico (explosiones o burbujeos).
-Enfoque netamente experimental: Se priorizó el "aprender haciendo". Cada error —desde las piezas cerámicas que explotaron hasta el bioplástico filtrado— aportó información técnica valiosa, completando un ciclo de experimentación práctica sumamente enriquecedor para mi formación, aunque lamento no haber podido planificar mejor las muestras para ser más clara en las observaciones que realicé.
+- Uso de residuos locales: Permitió trabajar de forma honesta con la disponibilidad real del territorio, reduciendo los impactos logísticos y generando consciencia sobre las mermas industriales y los hábitos de consumo cotidianos.
+- Combinación con matriz ceramico-plástica: Aseguró la cohesión estructural y permitió comprender la viabilidad técnica y los límites térmicos de los descartes minerales y metálicos a altas temperaturas.
+- Incorporación de moldes de precisión: Aportó el rigor geométrico, la escalabilidad y la copia fiel al detalle indispensables para compensar las grandes contracciones e inestabilidades propias de ambos materiales experimentales.
+- Integración tecnológica (Cámara de secado IoT): Se validó como una infraestructura crítica para estandarizar y controlar las variables climáticas extremas de nuestro entorno local (como las altas humedades de junio), las cuales alteran los tiempos del taller y provocan fallas por estrés hídrico (explosiones o burbujeos).
+- Enfoque netamente experimental: Se priorizó el "aprender haciendo". Cada error —desde las piezas cerámicas que explotaron hasta el bioplástico filtrado— aportó información técnica valiosa, completando un ciclo de experimentación práctica sumamente enriquecedor para mi formación, aunque lamento no haber podido planificar mejor las muestras para ser más clara en las observaciones que realicé.
 
 ![](../images/proyecto/hongos.jpg)
 ![](../images/proyecto/hongo2.jpg)
->> Con el pasar de los días todos los biomateriales se llenaron de hongos. Fueron días críticos de humedad, baja temperatura y poco sol, pero para mi fue una validación de que la cámara de secado es un aporte al proceso de secado, al igual que haber tenido que hornear de forma cacera priva las piezas cerámicas porque pasdos los 10 días aun no lograban llegar a su estado de cuero.
+>> Con el pasar de los días todos los biomateriales se llenaron de hongos. Fueron días críticos de humedad, baja temperatura y poco sol, pero para mi fue una validación de que la cámara de secado es un aporte al proceso de secado, al igual que haber tenido que hornear de forma doméstica  las piezas cerámicas porque pasados los 10 días aun no lograban llegar a su estado de cuero.
 
 
 

@@ -96,7 +96,6 @@ La manta calienta la cámara si hace frío, pero se corta si sube demasiado para
 - **SI Temperatura ≥ 27°C** — Envía señal HIGH (apaga el relé y corta el calor).
 
 ![](../images/proyecto/2-codigo.jpg)
-![](../images/proyecto/2-circuito.png)
 
 **4. Monitoreo IoT (Blynk):** Integré la plataforma Blynk para el seguimiento inalámbrico del proceso. Esto permite visualizar los gráficos de comportamiento en tiempo real desde dispositivos móviles, asegurando un registro continuo y un control a distancia de la evolución del secado. Repasé el MT07 , definí los gráficos con  indicadores radiales para la humedad y la temperatura y una gráfica con la evolución en el tiempo. Le pedí a la IA que sumara a mi codigo.
 ![](../images/proyecto/2-blynk.png)
